@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugins>
+    <plugin id="com.cd.comment_generator"
+        url="https://github.com/cdcountrydelight/Plugin-Manager/blob/master/comment_generator-1.0.1.jar"
+        version="1.0.1">
+        <idea-version since-build="241" />
+    </plugin>
+</plugins>
