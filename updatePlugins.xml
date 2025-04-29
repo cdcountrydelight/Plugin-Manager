@@ -4,5 +4,18 @@
         url="https://github.com/cdcountrydelight/Plugin-Manager/blob/master/comment_generator-1.0.1.jar"
         version="1.0.1">
         <idea-version since-build="241" />
+        <name>Comment Generator</name>
+    </plugin>
+    <plugin id="com.cd.test_cases_generator"
+        url="https://github.com/cdcountrydelight/Plugin-Manager/blob/master/test_cases_generator-1.0.1.jar"
+        version="1.0.1">
+        <idea-version since-build="241" />
+        <name>Test Cases Generator</name>
+    </plugin>
+    <plugin id="com.cd.ClassDiagramGenerator"
+        url="https://github.com/cdcountrydelight/Plugin-Manager/blob/master/ClassDiagramGenerator-1.0.4.jar"
+        version="1.0.4">
+        <idea-version since-build="241" />
+        <name>Test Cases Generator</name>
     </plugin>
 </plugins>
