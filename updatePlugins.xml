@@ -16,26 +16,51 @@
             </ul>
             <p>This plugin streamlines the process of adding documentation to your code with minimal effort.</p>]]>
         </description>
+        <category>Code tools</category>
+        <tags>comment, documentation, javadoc, kdoc, kotlin, java, gemini</tags>
+        <depends>com.intellij.modules.java</depends>
+        <depends>org.jetbrains.kotlin</depends>
         <change-notes>
-            - **Introduced a dedicated icon** for the *Generate Comment* action, enhancing visual clarity.
-            - **Improved regex logic** for more accurate comment extraction and parsing.
-            - **Upgraded Gemini integration** to the latest supported version for better performance.
-            - **Added compatibility with Kotlin K2 mode**, enabling support for the latest Kotlin analysis API.
-            - **Refactored package structure** for improved maintainability and scalability of the plugin.
-            - **Enhanced comment generation logic** to intelligently produce both Javadoc and KDoc based on file type.
+            <ol>
+                <li>
+                    <b>Introduced a dedicated icon</b>
+                    for the <b>Generate Comment</b> action, enhancing visual clarity.
+                </li>
+                <li>
+                    <b>Improved regex logic</b>
+                    for more accurate comment extraction and parsing.
+                </li>
+                <li>
+                    <b>Upgraded Gemini integration</b>
+                    to the latest supported version for better performance.
+                </li>
+                <li>
+                    <b>Added compatibility with Kotlin K2 mode</b>
+                    , enabling support for the latest Kotlin analysis API.
+                </li>
+                <li>
+                    <b>Refactored package structure</b>
+                    for improved maintainability and scalability of the plugin.
+                </li>
+                <li>
+                    <b>Enhanced comment generation logic</b>
+                    to intelligently produce both Javadoc and KDoc based on file type.
+                </li>
+            </ol>
         </change-notes>
-        <vendor email="info@countrydelight.in" url="https://countrydelight.in/">Country Delight</vendor>
+        <vendor email="info@countrydelight.in" url="https://countrydelight.in/">Country Delight
+        </vendor>
     </plugin>
-<!--    <plugin id="com.cd.test_cases_generator"-->
-<!--        url="https://github.com/cdcountrydelight/Plugin-Manager/blob/master/test_cases_generator-1.0.1.jar"-->
-<!--        version="1.0.1">-->
-<!--        <idea-version since-build="241" />-->
-<!--        <name>Test Cases Generator</name>-->
-<!--    </plugin>-->
-<!--    <plugin id="com.cd.ClassDiagramGenerator"-->
-<!--        url="https://github.com/cdcountrydelight/Plugin-Manager/blob/master/ClassDiagramGenerator-1.0.4.jar"-->
-<!--        version="1.0.4">-->
-<!--        <idea-version since-build="241" />-->
-<!--        <name>Test Cases Generator</name>-->
-<!--    </plugin>-->
+    <!--    <plugin id="com.cd.test_cases_generator"-->
+    <!--        url="https://github.com/cdcountrydelight/Plugin-Manager/blob/master/test_cases_generator-1.0.1.jar"-->
+    <!--        version="1.0.1">-->
+    <!--        <idea-version since-build="241" />-->
+    <!--        <name>Test Cases Generator</name>-->
+    <!--    </plugin>-->
+    <!--    <plugin id="com.cd.ClassDiagramGenerator"-->
+    <!--        url="https://github.com/cdcountrydelight/Plugin-Manager/blob/master/ClassDiagramGenerator-1.0.4.jar"-->
+    <!--        version="1.0.4">-->
+    <!--        <idea-version since-build="241" />-->
+    <!--        <name>Test Cases Generator</name>-->
+    <!--    </plugin>-->
 </plugins>
