@@ -16,8 +16,8 @@
             </ul>
             <p>This plugin streamlines the process of adding documentation to your code with minimal effort.</p>]]>
         </description>
-<!--        <category>Code tools</category>-->
-<!--        <tags>comment, documentation, javadoc, kdoc, kotlin, java, gemini</tags>-->
+        <category>Code tools</category>
+        <tags>comment, documentation, javadoc, kdoc, kotlin, java, gemini</tags>
 <!--        <depends>com.intellij.modules.java</depends>-->
 <!--        <depends>org.jetbrains.kotlin</depends>-->
 <!--        <change-notes>-->
