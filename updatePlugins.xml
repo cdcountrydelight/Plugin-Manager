@@ -16,19 +16,14 @@
             </ul>
             <p>This plugin streamlines the process of adding documentation to your code with minimal effort.</p>]]>
         </description>
+        <icon>
+            <svg
+                path="https://github.com/cdcountrydelight/Plugin-Manager/raw/refs/heads/master/pluginIcon.svg" />
+            <svg
+                dark="true"
+                path="https://github.com/cdcountrydelight/Plugin-Manager/raw/refs/heads/master/pluginIcon_dark.svg" />
+        </icon>
         <vendor email="info@countrydelight.in" url="https://countrydelight.in/">Country Delight
         </vendor>
     </plugin>
-    <!--    <plugin id="com.cd.test_cases_generator"-->
-    <!--        url="https://github.com/cdcountrydelight/Plugin-Manager/blob/master/test_cases_generator-1.0.1.jar"-->
-    <!--        version="1.0.1">-->
-    <!--        <idea-version since-build="241" />-->
-    <!--        <name>Test Cases Generator</name>-->
-    <!--    </plugin>-->
-    <!--    <plugin id="com.cd.ClassDiagramGenerator"-->
-    <!--        url="https://github.com/cdcountrydelight/Plugin-Manager/blob/master/ClassDiagramGenerator-1.0.4.jar"-->
-    <!--        version="1.0.4">-->
-    <!--        <idea-version since-build="241" />-->
-    <!--        <name>Test Cases Generator</name>-->
-    <!--    </plugin>-->
 </plugins>
