@@ -5,6 +5,26 @@
         version="1.0.1">
         <idea-version since-build="241" />
         <name>Comment Generator</name>
+        <description><![CDATA[
+            <p><strong>This plugin adds a convenient 'Generate Comment' action</strong> to the context menu when right-clicking on a file. Upon selecting the action, it automatically generates and adds documentation comments to methods and functions in the file by calling the Gemini API.</p>
+            <p>For the first-time setup, users will be prompted to enter their API key, which can be stored and later updated through the plugin’s settings page.</p>
+            <p><strong>Key Benefits:</strong></p>
+            <ul>
+                <li>Automatically generates Javadoc-style comments for methods and functions in your code.</li>
+                <li>Prompted for an API key upon first use, with easy API key management through the settings page.</li>
+                <li>Simplifies the process of adding documentation, improving code readability and maintainability.</li>
+            </ul>
+            <p>This plugin streamlines the process of adding documentation to your code with minimal effort.</p>]]>
+        </description>
+        <change-notes>
+            - **Introduced a dedicated icon** for the *Generate Comment* action, enhancing visual clarity.
+            - **Improved regex logic** for more accurate comment extraction and parsing.
+            - **Upgraded Gemini integration** to the latest supported version for better performance.
+            - **Added compatibility with Kotlin K2 mode**, enabling support for the latest Kotlin analysis API.
+            - **Refactored package structure** for improved maintainability and scalability of the plugin.
+            - **Enhanced comment generation logic** to intelligently produce both Javadoc and KDoc based on file type.
+        </change-notes>
+        <vendor email="info@countrydelight.in" url="https://countrydelight.in/">Country Delight</vendor>
     </plugin>
 <!--    <plugin id="com.cd.test_cases_generator"-->
 <!--        url="https://github.com/cdcountrydelight/Plugin-Manager/blob/master/test_cases_generator-1.0.1.jar"-->
