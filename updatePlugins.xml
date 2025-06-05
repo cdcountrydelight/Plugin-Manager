@@ -20,34 +20,34 @@
         <tags>comment, documentation, javadoc, kdoc, kotlin, java, gemini</tags>
         <depends>com.intellij.modules.java</depends>
         <depends>org.jetbrains.kotlin</depends>
-        <change-notes>
-            <ol>
-                <li>
-                    <b>Introduced a dedicated icon</b>
-                    for the <b>Generate Comment</b> action, enhancing visual clarity.
-                </li>
-                <li>
-                    <b>Improved regex logic</b>
-                    for more accurate comment extraction and parsing.
-                </li>
-                <li>
-                    <b>Upgraded Gemini integration</b>
-                    to the latest supported version for better performance.
-                </li>
-                <li>
-                    <b>Added compatibility with Kotlin K2 mode</b>
-                    , enabling support for the latest Kotlin analysis API.
-                </li>
-                <li>
-                    <b>Refactored package structure</b>
-                    for improved maintainability and scalability of the plugin.
-                </li>
-                <li>
-                    <b>Enhanced comment generation logic</b>
-                    to intelligently produce both Javadoc and KDoc based on file type.
-                </li>
-            </ol>
-        </change-notes>
+<!--        <change-notes>-->
+<!--            <ol>-->
+<!--                <li>-->
+<!--                    <b>Introduced a dedicated icon</b>-->
+<!--                    for the <b>Generate Comment</b> action, enhancing visual clarity.-->
+<!--                </li>-->
+<!--                <li>-->
+<!--                    <b>Improved regex logic</b>-->
+<!--                    for more accurate comment extraction and parsing.-->
+<!--                </li>-->
+<!--                <li>-->
+<!--                    <b>Upgraded Gemini integration</b>-->
+<!--                    to the latest supported version for better performance.-->
+<!--                </li>-->
+<!--                <li>-->
+<!--                    <b>Added compatibility with Kotlin K2 mode</b>-->
+<!--                    , enabling support for the latest Kotlin analysis API.-->
+<!--                </li>-->
+<!--                <li>-->
+<!--                    <b>Refactored package structure</b>-->
+<!--                    for improved maintainability and scalability of the plugin.-->
+<!--                </li>-->
+<!--                <li>-->
+<!--                    <b>Enhanced comment generation logic</b>-->
+<!--                    to intelligently produce both Javadoc and KDoc based on file type.-->
+<!--                </li>-->
+<!--            </ol>-->
+<!--        </change-notes>-->
         <vendor email="info@countrydelight.in" url="https://countrydelight.in/">Country Delight
         </vendor>
     </plugin>
