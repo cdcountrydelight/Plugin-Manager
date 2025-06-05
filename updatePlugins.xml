@@ -17,11 +17,7 @@
             <p>This plugin streamlines the process of adding documentation to your code with minimal effort.</p>]]>
         </description>
         <icon>
-            <svg
-                path="https://github.com/cdcountrydelight/Plugin-Manager/raw/refs/heads/master/pluginIcon.svg" />
-            <svg
-                dark="true"
-                path="https://github.com/cdcountrydelight/Plugin-Manager/raw/refs/heads/master/pluginIcon_dark.svg" />
+            https://github.com/cdcountrydelight/Plugin-Manager/raw/refs/heads/master/pluginIcon.svg"
         </icon>
         <vendor email="info@countrydelight.in" url="https://countrydelight.in/">Country Delight
         </vendor>
