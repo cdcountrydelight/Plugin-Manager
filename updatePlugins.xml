@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugins>
     <plugin id="com.cd.comment_generator"
-        url="https://github.com/cdcountrydelight/Plugin-Manager/raw/refs/heads/master/comment_generator-1.0.1.zip"
-        version="1.0.1">
+        url="https://github.com/cdcountrydelight/Plugin-Manager/raw/refs/heads/master/comment_generator-1.0.2.zip"
+        version="1.0.2">
         <idea-version since-build="241" />
         <name>Comment Generator</name>
         <description><![CDATA[
@@ -17,7 +17,16 @@
             <p>This plugin streamlines the process of adding documentation to your code with minimal effort.</p>]]>
         </description>
         <change-notes>
-            Added basic setup
+            <![CDATA[
+            <ul>
+                <li><strong>Introduced a dedicated icon</strong> for the <em>Generate Comment</em> action, enhancing visual clarity.</li>
+                <li><strong>Improved regex logic</strong> for more accurate comment extraction and parsing.</li>
+                <li><strong>Upgraded Gemini integration</strong> to the latest supported version for better performance.</li>
+                <li><strong>Added compatibility with Kotlin K2 mode</strong>, enabling support for the latest Kotlin analysis API.</li>
+                <li><strong>Refactored package structure</strong> for improved maintainability and scalability of the plugin.</li>
+                <li><strong>Enhanced comment generation logic</strong> to intelligently produce both Javadoc and KDoc based on file type.</li>
+            </ul>
+            ]]>
         </change-notes>
         <vendor email="info@countrydelight.in" url="https://countrydelight.in/">Country Delight
         </vendor>
