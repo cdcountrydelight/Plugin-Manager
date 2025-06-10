@@ -3,7 +3,7 @@
     <plugin id="com.cd.comment_generator"
         url="https://github.com/cdcountrydelight/Plugin-Manager/raw/refs/heads/master/comment_generator-1.0.2.zip"
         version="1.0.2">
-        <idea-version since-build="241" />
+        <idea-version since-build="241" until-build="251.*" />
         <name>Comment Generator</name>
         <description>
             <![CDATA[
