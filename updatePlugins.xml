@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugins>
+    <!--  comment generator -->
     <plugin id="com.cd.comment_generator"
         url="https://github.com/cdcountrydelight/Plugin-Manager/raw/refs/heads/master/comment_generator-1.0.2.zip"
         version="1.0.2">
@@ -27,6 +28,29 @@
                     <li><strong>Added compatibility with Kotlin K2 mode</strong>, enabling support for the latest Kotlin analysis API.</li>
                     <li><strong>Refactored package structure</strong> for improved maintainability and scalability of the plugin.</li>
                     <li><strong>Enhanced comment generation logic</strong> to intelligently produce both Javadoc and KDoc based on file type.</li>
+                </ul>
+            ]]>
+        </change-notes>
+        <vendor email="info@countrydelight.in" url="https://countrydelight.in/">Country Delight
+        </vendor>
+    </plugin>
+
+    <!--  test cases generator -->
+    <plugin id="com.cd.test_cases_generator" version="1.0.2">
+        <idea-version since-build="241" until-build="251.*" />
+        <name>Test Cases Generator</name>
+        <description>
+            <![CDATA[
+               Effortlessly generate unit test cases for Kotlin functions with this plugin. It analyzes function
+        parameters, return types, and behavior to create well-structured test cases, ensuring comprehensive coverage.
+        Supports functions inside classes, objects, and standalone files while preventing duplicate test generation.
+            ]]>
+        </description>
+        <change-notes>
+            <![CDATA[
+                <ul>
+                    <li><strong>Added support for Kotlin K2 mode</strong>, ensuring compatibility with the latest Kotlin analysis engine.</li>
+                    <li><strong>Defined maximum supported IntelliJ version</strong> (<code>until-build</code>), ensuring proper compatibility across IDE versions.</li>
                 </ul>
             ]]>
         </change-notes>
