@@ -36,9 +36,12 @@
     </plugin>
 
     <!--  test cases generator -->
-    <plugin id="com.cd.test_cases_generator" version="1.0.2">
+    <plugin id="com.cd.test_cases_generator"
+        url="https://github.com/cdcountrydelight/Plugin-Manager/raw/refs/heads/master/test_cases_generator-1.0.2.zip"
+        version="1.0.2">
         <idea-version since-build="241" until-build="251.*" />
         <name>Test Cases Generator</name>
+
         <description>
             <![CDATA[
                Effortlessly generate unit test cases for Kotlin functions with this plugin. It analyzes function
