@@ -16,9 +16,9 @@
             </ul>
             <p>This plugin streamlines the process of adding documentation to your code with minimal effort.</p>]]>
         </description>
-        <icon>
-            https://github.com/cdcountrydelight/Plugin-Manager/raw/refs/heads/master/pluginIcon.svg"
-        </icon>
+        <change-notes>
+            Added cool feature
+        </change-notes>
         <vendor email="info@countrydelight.in" url="https://countrydelight.in/">Country Delight
         </vendor>
     </plugin>
