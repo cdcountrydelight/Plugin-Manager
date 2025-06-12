@@ -22,32 +22,32 @@
         <change-notes>
             <![CDATA[
             <h3>Added</h3>
-<ul>
-  <li>
-    Implemented support for generating comments for <strong>variables in Java files</strong>,
-    ensuring consistent documentation support across languages.
-  </li>
-  <li>
-    Implemented support for generating comments for <strong>variables in Kotlin files</strong>,
-    improving coverage for class-level documentation.
-  </li>
-  <li>
-    Implemented support for generating comments for <strong>classes in Java files</strong>,
-    enhancing overall class documentation coverage.
-  </li>
-  <li>
-    Implemented support for generating comments for <strong>classes in Kotlin files</strong>,
-    ensuring parity across supported languages.
-  </li>
-</ul>
+            <ul>
+                <li>
+                    Implemented support for generating comments for <strong>variables in Java files</strong>,
+                    ensuring consistent documentation support across languages.
+                </li>
+                <li>
+                    Implemented support for generating comments for <strong>variables in Kotlin files</strong>,
+                    improving coverage for class-level documentation.
+                </li>
+                <li>
+                    Implemented support for generating comments for <strong>classes in Java files</strong>,
+                    enhancing overall class documentation coverage.
+                </li>
+                <li>
+                    Implemented support for generating comments for <strong>classes in Kotlin files</strong>,
+                    ensuring parity across supported languages.
+                </li>
+            </ul>
 
-<h3>Fixed</h3>
-<ul>
-  <li>
-    Fixed UI freeze issue in <strong>Java file comment generator</strong>,
-    improving responsiveness and user experience.
-  </li>
-</ul>
+            <h3>Fixed</h3>
+            <ul>
+                <li>
+                    Fixed UI freeze issue in <strong>Java file comment generator</strong>,
+                    improving responsiveness and user experience.
+                </li>
+            </ul>
 
             ]]>
         </change-notes>
