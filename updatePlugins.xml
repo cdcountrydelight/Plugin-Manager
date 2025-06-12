@@ -2,8 +2,8 @@
 <plugins>
     <!--  comment generator -->
     <plugin id="com.cd.comment_generator"
-        url="https://github.com/cdcountrydelight/Plugin-Manager/raw/refs/heads/master/comment_generator-1.0.3.zip"
-        version="1.0.3">
+        url="https://github.com/cdcountrydelight/Plugin-Manager/raw/refs/heads/master/comment_generator-1.0.4.zip"
+        version="1.0.4">
         <idea-version since-build="241" until-build="251.*" />
         <name>Comment Generator</name>
         <description>
@@ -21,11 +21,33 @@
         </description>
         <change-notes>
             <![CDATA[
-             <ul>
-                <li><strong>Implemented support for generating comments for variables in Kotlin files</strong>, improving coverage for class-level documentation.</li>
-                <li><strong>Implemented support for generating comments for variables in Java files</strong>, ensuring consistent documentation support across languages.</li>
-                <li><strong>Performed general code optimizations</strong>, enhancing stability and maintainability.</li>
-             </ul>
+            <h3>Added</h3>
+<ul>
+  <li>
+    Implemented support for generating comments for <strong>variables in Java files</strong>,
+    ensuring consistent documentation support across languages.
+  </li>
+  <li>
+    Implemented support for generating comments for <strong>variables in Kotlin files</strong>,
+    improving coverage for class-level documentation.
+  </li>
+  <li>
+    Implemented support for generating comments for <strong>classes in Java files</strong>,
+    enhancing overall class documentation coverage.
+  </li>
+  <li>
+    Implemented support for generating comments for <strong>classes in Kotlin files</strong>,
+    ensuring parity across supported languages.
+  </li>
+</ul>
+
+<h3>Fixed</h3>
+<ul>
+  <li>
+    Fixed UI freeze issue in <strong>Java file comment generator</strong>,
+    improving responsiveness and user experience.
+  </li>
+</ul>
 
             ]]>
         </change-notes>
